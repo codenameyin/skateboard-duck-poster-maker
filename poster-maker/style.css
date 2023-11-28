@@ -171,6 +171,8 @@ button> h3 {
     position: relative;
 }
 #posterTextDisplay{
+    padding: 2rem;
+    text-wrap: balance;
     position: absolute;
     z-index: 1;
 }
