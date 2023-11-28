@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Skateboard Duck on the loose</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <div id="header-yellow">
+            <h1 id="head-txt">Skateboard Duck of Wellington</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="btn nav-btn">
+                    <a href="#">Home</a>
+                </li>
+                <li class="btn nav-btn">
+                    <a href="poster-maker/poster-maker.html">Poster maker</a>
+                </li>
+                <li class="btn nav-btn">
+                    <a href="#">Skate</a>
+                </li>
+                <li class="btn nav-btn">
+                    <a href="#">Found them?</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Poster maker</h2>
+        <section id="posterMaker">
+            <section id="imgDisplay">
+                <!-- Selected image container-->
+                <div class="imgContainer">
+                    <div id="posterTextDisplay">
+                        <p>Poster text</p>
+                    </div>
+                    <img id="pickedImg">
+                </div>
+                <!-- img selection -->
+                <div class="imgSelector">
+                    <img src="../images/SD - Couch.jpg" class="SD-couch" alt="Skateboard Duck spraypainted on a couch">
+
+                    <img src="../images/SD - black wall with plant.jpg" class="SDWallWithPlant" alt="Skateboard Duck graffiti">
+
+                    <img src="../images/SD - the fabric store.jpg" class="SDFabricStore" alt="Skateboard Duck graffiti">
+
+                    <img src="../images/SD - Cuba st carpark.jpg" class="SDCubaStCarpark" alt="Skateboard Duck graffiti">
+
+                    <img src="../images/SD - small black post v2.jpg" class="SDSmallBlackPost" alt="Skateboard Duck graffiti">
+                </div>
+            </section>
+            <!-- Poster text options -->
+            <div id="posterTxtOptions">
+                <div id="instruction-text">
+                    <p> Please select a text option</p>
+                </div>
+                <div id="posterTextTitles">
+                    <button id="posterText1title">
+                        <h3>Safety first ⛑</h3>
+                    </button>
+                    <button id="posterText2title">
+                        <h3>Story time 📖</h3>
+                    </button>
+                    <button id="posterText3title">
+                        <h3>Freestyle 🦆🛹</h3>
+                    </button>
+                </div>
+
+                <!-- Poster text maker area -->
+                <form id="posterTextInput">
+                    <div id="PosterText1">
+                        <p>Safety first, </br>
+                            <input type="text" id="poster1Noun1" 
+                            placeholder="Noun"/> second, </br>
+                            and for everything else, </br>
+                            there's <input type="text" id="poster1Noun2" placeholder="Noun" /> </br>
+                        </p>
+                    </div>
+                    <div id="PosterText2">
+                        <p>There once was a(n) <input type="text" id="poster2Animal" placeholder="animal"> who would
+                            <input type="text" id="poster2Verb" placeholder="verb"> through the city of <input
+                                type="text" id="poster2CityName" placeholder="city name">. They appear in the lest
+                            expected places riding a
+                            </br>
+                            </br>
+                            The residents have dubbed this creature <input type="text" id="poster2Name"
+                                placeholder="give this critter a name"></p>
+                    </div>
+                    <div id="PosterText3">
+                        <!-- <input type="text" maxlength="100" id="poster3Freestyle" placeholder="Go ham and do your thing"> -->
+                        <textarea maxlength="100" id="poster3Freestyle"
+                            placeholder="Go ham and do your thing"></textarea>
+                        </br>
+                        <label>Character count: <span id="characterCount">0</span></label>
+                        </br>
+                        <label>Character remaining: <span id="characterRemain">100</span></label>
+                    </div>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <h6>All rights to Skateboard Duck are reversed to the unknown artist. We are mere humble observers to the
+            travels of Skateboard Duck</h6>
+    </footer>
+
+</body>
+
+</html>
